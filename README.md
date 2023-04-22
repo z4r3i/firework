@@ -1,7 +1,7 @@
 # firework
 Firework in html page😁👌
 
-[![Demo](https://img.shields.io/badge/Demo-1572B6?logoColor=white&style=flat-square)](https://z4r3i.github.io/muliticolor-firework/)
+[![Demo](https://img.shields.io/badge/Demo-1572B6?logoColor=white&style=flat-square)](https://z4r3i.github.io/firework)
 
 languages :
 
