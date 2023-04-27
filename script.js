@@ -5,13 +5,11 @@ var $ = c.getContext('2d');
 c.width = window.innerWidth;
 c.height = window.innerHeight;
         $.fillStyle = 'hsla(0,0%,0%,1)';
-
 window.addEventListener('resize', function()
     {
     c.width = window.innerWidth;
     c.height = window.innerHeight;
 }, false);
-
 function draw()
 {
           $.globalCompositeOperation = 'source-over';
@@ -29,13 +27,11 @@ function draw()
                   Math.cos(i) * r + (c.height / 2),
                   1.5, 0, Math.PI * 2);
             $.fill();
-
     }
     t += 0.000005;
     return t %= 2 * Math.PI;
 
 };
-
 function run()
 {
     window.requestAnimationFrame(run);
